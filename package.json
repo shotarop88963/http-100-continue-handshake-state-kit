@@ -1,0 +1,17 @@
+{
+  "name": "http-100-continue-handshake-state-kit",
+  "version": "0.1.0",
+  "description": "Tracks the state machine a client follows when it sends Expect: 100-continue and waits for an interim response before writing the request body.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
